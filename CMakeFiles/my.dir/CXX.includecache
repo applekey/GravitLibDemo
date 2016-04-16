@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/users/applekey/documents/gravit/src/apps/render/RenderAPI.h
+
+/home/users/applekey/documents/scratch/run.cpp
+stdio.h
+-
+apps/render/RenderAPI.h
+-
+

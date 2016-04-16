@@ -1,0 +1,279 @@
+The system is: Linux - 3.19.0-56-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Intel, found in "/home/users/applekey/documents/scratch/CMakeFiles/3.3.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icpc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Intel, found in "/home/users/applekey/documents/scratch/CMakeFiles/3.3.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1935a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1935a.dir/build.make CMakeFiles/cmTC_1935a.dir/build
+make[1]: Entering directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1935a.dir/testCCompiler.c.o
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icc    -o CMakeFiles/cmTC_1935a.dir/testCCompiler.c.o   -c /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1935a
+/opt/apps/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1935a.dir/link.txt --verbose=1
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icc       CMakeFiles/cmTC_1935a.dir/testCCompiler.c.o  -o cmTC_1935a -rdynamic 
+make[1]: Leaving directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68093/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68093.dir/build.make CMakeFiles/cmTC_68093.dir/build
+make[1]: Entering directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icc    -o CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o   -c /opt/apps/cmake-3.3.2/share/cmake-3.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_68093
+/opt/apps/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68093.dir/link.txt --verbose=1
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icc      -v CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o  -o cmTC_68093 -rdynamic  
+icc version 15.0.6 (gcc version 4.8.0 compatibility)
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=480 "-mGLOB_options_string=-v -o cmTC_68093 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccz8S6ooas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d91 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc0101915708597AvlNGx -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisdtRYeT -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscriptT47qXI "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_68093" "-L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/" "-L/lib/x86_64-linux-gnu/" "-L/lib/../lib64" "-L/lib/../lib/" "-L/usr/lib/x86_64-linux-gnu/" "-L/usr/lib/../lib/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib" "CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccT8zlWS.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchtvKe3J -mGLOB_linker_version=2.24 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icctempfile2zLOQz -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccT8zlWS.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccalisVlGcny -mIPOPT_generated_tempfiles=/tmp/iccelishHLD5n -mIPOPT_embedded_object_base_name=/tmp/icceobjt3b5Nd -mIPOPT_cmdline_link_new_name=/tmp/iccllisVPPww3
+ld    /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_68093 -L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/ -L/lib/x86_64-linux-gnu/ -L/lib/../lib64 -L/lib/../lib/ -L/usr/lib/x86_64-linux-gnu/ -L/usr/lib/../lib/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../ -L/lib64 -L/lib/ -L/usr/lib CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_68093/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_68093.dir/build.make CMakeFiles/cmTC_68093.dir/build]
+  ignore line: [make[1]: Entering directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icc    -o CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o   -c /opt/apps/cmake-3.3.2/share/cmake-3.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_68093]
+  ignore line: [/opt/apps/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68093.dir/link.txt --verbose=1]
+  ignore line: [/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icc      -v CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o  -o cmTC_68093 -rdynamic  ]
+  ignore line: [icc version 15.0.6 (gcc version 4.8.0 compatibility)]
+  ignore line: [/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=480 "-mGLOB_options_string=-v -o cmTC_68093 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/iccz8S6ooas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d91 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icc0101915708597AvlNGx -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisdtRYeT -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscriptT47qXI "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_68093" "-L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/" "-L/lib/x86_64-linux-gnu/" "-L/lib/../lib64" "-L/lib/../lib/" "-L/usr/lib/x86_64-linux-gnu/" "-L/usr/lib/../lib/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib" "CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccT8zlWS.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchtvKe3J -mGLOB_linker_version=2.24 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icctempfile2zLOQz -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccT8zlWS.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccalisVlGcny -mIPOPT_generated_tempfiles=/tmp/iccelishHLD5n -mIPOPT_embedded_object_base_name=/tmp/icceobjt3b5Nd -mIPOPT_cmdline_link_new_name=/tmp/iccllisVPPww3]
+  link line: [ld    /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_68093 -L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/ -L/lib/x86_64-linux-gnu/ -L/lib/../lib64 -L/lib/../lib/ -L/usr/lib/x86_64-linux-gnu/ -L/usr/lib/../lib/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../ -L/lib64 -L/lib/ -L/usr/lib CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [ld] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_68093] ==> ignore
+    arg [-L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64] ==> dir [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/]
+    arg [-L/lib/x86_64-linux-gnu/] ==> dir [/lib/x86_64-linux-gnu/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib/] ==> dir [/lib/../lib/]
+    arg [-L/usr/lib/x86_64-linux-gnu/] ==> dir [/usr/lib/x86_64-linux-gnu/]
+    arg [-L/usr/lib/../lib/] ==> dir [/usr/lib/../lib/]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_68093.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64] ==> [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu/] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib/] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu/] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib/] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../] ==> [/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;m;ipgo;decimal;cilkrts;stdc++;irc;svml;c;irc_s;dl;c]
+  implicit dirs: [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64;/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib64;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f613e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f613e.dir/build.make CMakeFiles/cmTC_f613e.dir/build
+make[1]: Entering directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f613e.dir/testCXXCompiler.cxx.o
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icpc     -o CMakeFiles/cmTC_f613e.dir/testCXXCompiler.cxx.o -c /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f613e
+/opt/apps/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f613e.dir/link.txt --verbose=1
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icpc        CMakeFiles/cmTC_f613e.dir/testCXXCompiler.cxx.o  -o cmTC_f613e -rdynamic 
+make[1]: Leaving directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_865e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_865e1.dir/build.make CMakeFiles/cmTC_865e1.dir/build
+make[1]: Entering directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icpc     -o CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake-3.3.2/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_865e1
+/opt/apps/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_865e1.dir/link.txt --verbose=1
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icpc       -v CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_865e1 -rdynamic  
+icpc version 15.0.6 (gcc version 4.8.0 compatibility)
+/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=480 "-mGLOB_options_string=-v -o cmTC_865e1 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpczWsbxJas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc0107356869280sOvj6 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslisv5Fvy8 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptSQlbd0 "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_865e1" "-L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/" "-L/lib/x86_64-linux-gnu/" "-L/lib/../lib64" "-L/lib/../lib/" "-L/usr/lib/x86_64-linux-gnu/" "-L/usr/lib/../lib/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib" "CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpcptjzCW.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarchn6b8xo -mGLOB_linker_version=2.24 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icpctempfileXg6Lhg -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpcptjzCW.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcalis4VFRVF -mIPOPT_generated_tempfiles=/tmp/icpcelishbgwAx -mIPOPT_embedded_object_base_name=/tmp/icpceobj7M7afp -mIPOPT_cmdline_link_new_name=/tmp/icpcllisnehQTg
+ld    /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_865e1 -L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/ -L/lib/x86_64-linux-gnu/ -L/lib/../lib64 -L/lib/../lib/ -L/usr/lib/x86_64-linux-gnu/ -L/usr/lib/../lib/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../ -L/lib64 -L/lib/ -L/usr/lib CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_865e1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_865e1.dir/build.make CMakeFiles/cmTC_865e1.dir/build]
+  ignore line: [make[1]: Entering directory `/home/users/applekey/documents/scratch/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icpc     -o CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake-3.3.2/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_865e1]
+  ignore line: [/opt/apps/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_865e1.dir/link.txt --verbose=1]
+  ignore line: [/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/icpc       -v CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_865e1 -rdynamic  ]
+  ignore line: [icpc version 15.0.6 (gcc version 4.8.0 compatibility)]
+  ignore line: [/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/mcpcom    -mP1OPT_version=15.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.diag -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=480 "-mGLOB_options_string=-v -o cmTC_865e1 -rdynamic" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icpczWsbxJas_.s -mIPOPT_activate -mGLOB_em64t -mGLOB_product_id_code=0x22006d8e -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=icpc0107356869280sOvj6 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/home/users/applekey/intel/composer_xe_2015.6.233/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/icpcslisv5Fvy8 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/icpcscriptSQlbd0 "-mIPOPT_cmdline_link="/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_865e1" "-L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/" "-L/lib/x86_64-linux-gnu/" "-L/lib/../lib64" "-L/lib/../lib/" "-L/usr/lib/x86_64-linux-gnu/" "-L/usr/lib/../lib/" "-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib" "CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o" "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_icpcptjzCW.o -mIPOPT_whole_archive_fixup_file_name=/tmp/icpcwarchn6b8xo -mGLOB_linker_version=2.24 -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_driver_tempfile_name=/tmp/icpctempfileXg6Lhg -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_icpcptjzCW.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/icpcalis4VFRVF -mIPOPT_generated_tempfiles=/tmp/icpcelishbgwAx -mIPOPT_embedded_object_base_name=/tmp/icpceobj7M7afp -mIPOPT_cmdline_link_new_name=/tmp/icpcllisnehQTg]
+  link line: [ld    /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_865e1 -L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/ -L/lib/x86_64-linux-gnu/ -L/lib/../lib64 -L/lib/../lib/ -L/usr/lib/x86_64-linux-gnu/ -L/usr/lib/../lib/ -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../ -L/lib64 -L/lib/ -L/usr/lib CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [ld] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_865e1] ==> ignore
+    arg [-L/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64] ==> dir [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/]
+    arg [-L/lib/x86_64-linux-gnu/] ==> dir [/lib/x86_64-linux-gnu/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib/] ==> dir [/lib/../lib/]
+    arg [-L/usr/lib/x86_64-linux-gnu/] ==> dir [/usr/lib/x86_64-linux-gnu/]
+    arg [-L/usr/lib/../lib/] ==> dir [/usr/lib/../lib/]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_865e1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [--no-as-needed] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64] ==> [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu/] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib/] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu/] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib/] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../] ==> [/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;m;ipgo;decimal;cilkrts;stdc++;irc;svml;c;irc_s;dl;c]
+  implicit dirs: [/home/users/applekey/intel/composer_xe_2015.6.233/compiler/lib/intel64;/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib64;/lib]
+  implicit fwks: []
+
+
